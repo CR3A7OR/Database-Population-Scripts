@@ -11,7 +11,7 @@ db = mysql.connector.connect(
   database="DB name"
 )
 
-f = open("Appliances.json", "r")
+f = open("Reviews.json", "r")
 Lines = f.readlines()
  
 count = 0
